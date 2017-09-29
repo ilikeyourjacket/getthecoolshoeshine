@@ -1,0 +1,16 @@
+{
+  "name": "getthecoolshoeshine",
+  "version": "1.0.0",
+  "description": "Get The Cool Shoe Shine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bootstrap": "lerna bootstrap",
+    "postinstall": "npm run bootstrap"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^2.2.0"
+  }
+}
